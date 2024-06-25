@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.commonbox:hover {
+    background: linear-gradient(90, blue, white);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.349);
+}
+
